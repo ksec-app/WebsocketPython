@@ -24,8 +24,8 @@ def getClientDetails():
     global feedType, clientKey, clientSecret, scope, application
     clientKey = argmnts[1] if len(argmnts) > 1 else ""
     clientSecret = argmnts[2] if len(argmnts) > 2 else ""
-    application = argmnts[4] if len(argmnts) > 4 else "default"
-    scope = argmnts[3] if len(argmnts) > 3 else "all"
+    application = argmnts[3] if len(argmnts) > 3 else "default"
+    scope = argmnts[4] if len(argmnts) > 4 else "all"
     feedType = argmnts[5] if len(argmnts) > 5 else "prices"
     print('')
     if len(argmnts) > 1:
